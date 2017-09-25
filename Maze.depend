@@ -1,0 +1,680 @@
+# depslib dependency file v1.0
+1480484698 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\animation_handler.cpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"animation_handler.hpp"
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1478253350 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\utf.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\string.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\thread.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\threadlocalptr.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\vector2.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\system\vector3.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\contextsettings.hpp
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1478253350 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\window\windowstyle.hpp
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1478253350 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\rect.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\primitivetype.hpp
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\glsl.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\animation_handler.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+
+1480592787 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\game.cpp
+	<stack>
+	<SFML/Graphics.hpp>
+	<SFML/System.hpp>
+	"game.hpp"
+	"game_state.hpp"
+	"texture_manager.hpp"
+	"animation_handler.hpp"
+	"tile.hpp"
+	"player.hpp"
+	"score.hpp"
+
+1480590998 c:\users\johny\desktop\c++ workspace codeblocks\maze\game.hpp
+	<stack>
+	<map>
+	<string>
+	<SFML/Graphics.hpp>
+	"texture_manager.hpp"
+	"tile.hpp"
+	"gui.hpp"
+	"player.hpp"
+	"score.hpp"
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\texture_manager.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+
+1480576139 c:\users\johny\desktop\c++ workspace codeblocks\maze\tile.hpp
+	<SFML/Graphics.hpp>
+	<vector>
+	"animation_handler.hpp"
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\gui.hpp
+	<vector>
+	<utility>
+	<string>
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\game_state.hpp
+	"game.hpp"
+
+1480593366 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\game_state_editor.cpp
+	<SFML/Graphics.hpp>
+	"game_state.hpp"
+	"game_state_editor.hpp"
+	"game_state_start.hpp"
+	"map.hpp"
+	"player.hpp"
+	<iostream>
+	<sstream>
+	<string>
+
+1480587323 c:\users\johny\desktop\c++ workspace codeblocks\maze\game_state_editor.hpp
+	<SFML/Graphics.hpp>
+	"game_state.hpp"
+	"map.hpp"
+	"tile.hpp"
+	"SFML/Audio.hpp"
+
+1480585651 c:\users\johny\desktop\c++ workspace codeblocks\maze\map.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	"tile.hpp"
+	"Maze.h"
+	"player.hpp"
+	"Game.hpp"
+	"mcleod.hpp"
+
+1480593470 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\game_state_start.cpp
+	<SFML/Graphics.hpp>
+	"game_state_start.hpp"
+	"game_state_editor.hpp"
+	"game_state.hpp"
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\game_state_start.hpp
+	<SFML/Graphics.hpp>
+	<map>
+	<string>
+	"game_state.hpp"
+	"gui.hpp"
+
+1480484698 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\gui.cpp
+	<SFML/Graphics.hpp>
+	<string>
+	"gui.hpp"
+
+1480591010 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\main.cpp
+	"game.hpp"
+	"game_state_start.hpp"
+	<SFML/Audio.hpp>
+	<SFML/Graphics.hpp>
+	<iostream>
+	"player.hpp"
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1478253376 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundfilefactory.inl
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1470642834 c:\users\johny\desktop\c++ workspace codeblocks\sfml-2.4.1\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1480588679 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\map.cpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	<fstream>
+	<algorithm>
+	<iostream>
+	<SFML/Audio/Music.hpp>
+	"map.hpp"
+	"tile.hpp"
+	"maze.h"
+	"game.hpp"
+	"mcleod.hpp"
+
+1480566075 c:\users\johny\desktop\c++ workspace codeblocks\maze\maze.h
+	<time.h>
+	<iostream>
+	<random>
+	<string>
+
+1480566075 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\maze.cpp
+	"Maze.h"
+	"stdlib.h"
+	"ShortestPath.h"
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\shortestpath.h
+	<string>
+	"Maze.h"
+
+1480484698 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\node.cpp
+	"Node.h"
+	<math.h>
+	<stdlib.h>
+
+1480484698 c:\users\johny\desktop\c++ workspace codeblocks\maze\node.h
+
+1480566075 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\shortestpath.cpp
+	"ShortestPath.h"
+	"Node.h"
+	<queue>
+	<string>
+
+1480586746 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\texture_manager.cpp
+	<SFML/Graphics.hpp>
+	<map>
+	<string>
+	<iostream>
+	"texture_manager.hpp"
+
+1480566075 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\tile.cpp
+	<SFML/Graphics.hpp>
+	"animation_handler.hpp"
+	"tile.hpp"
+	"map.hpp"
+
+1480570679 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\testing.cpp
+	"Maze.h"
+	"ShortestPath.h"
+
+1480588495 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\player.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"player.hpp"
+
+1480585652 c:\users\johny\desktop\c++ workspace codeblocks\maze\player.hpp
+
+1480556821 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\ai.cpp
+
+1480556821 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\collision.cpp
+
+1480585651 c:\users\johny\desktop\c++ workspace codeblocks\maze\mcleod.hpp
+
+1480588498 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\mcleod.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"McLeod.hpp"
+
+1480587451 c:\users\johny\desktop\c++ workspace codeblocks\maze\score.hpp
+
+1480587445 source:c:\users\johny\desktop\c++ workspace codeblocks\maze\score.cpp
+	"score.hpp"
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Maze" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Maze" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="C:/Users/johny/Desktop/c++ workspace codeblocks/SFML-2.4.1/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-audio" />
+					<Add library="sfml-system" />
+					<Add directory="C:/Users/johny/Desktop/c++ workspace codeblocks/SFML-2.4.1/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Maze" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add directory="C:/Users/johny/Desktop/c++ workspace codeblocks/SFML-2.4.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="C:/Users/johny/Desktop/c++ workspace codeblocks/SFML-2.4.1/lib" />
+		</Linker>
+		<Unit filename="Maze.cpp" />
+		<Unit filename="Maze.h" />
+		<Unit filename="Node.cpp" />
+		<Unit filename="Node.h" />
+		<Unit filename="ShortestPath.cpp" />
+		<Unit filename="ShortestPath.h" />
+		<Unit filename="ai.cpp" />
+		<Unit filename="ai.hpp" />
+		<Unit filename="animation_handler.cpp" />
+		<Unit filename="animation_handler.hpp" />
+		<Unit filename="collision.cpp" />
+		<Unit filename="collision.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="game_state.hpp" />
+		<Unit filename="game_state_editor.cpp" />
+		<Unit filename="game_state_editor.hpp" />
+		<Unit filename="game_state_start.cpp" />
+		<Unit filename="game_state_start.hpp" />
+		<Unit filename="gui.cpp" />
+		<Unit filename="gui.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map.cpp" />
+		<Unit filename="map.hpp" />
+		<Unit filename="mcleod.cpp" />
+		<Unit filename="mcleod.hpp" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.hpp" />
+		<Unit filename="score.cpp" />
+		<Unit filename="score.hpp" />
+		<Unit filename="texture_manager.cpp" />
+		<Unit filename="texture_manager.hpp" />
+		<Unit filename="tile.cpp" />
+		<Unit filename="tile.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

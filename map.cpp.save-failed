@@ -1,0 +1,107 @@
+#include <SFML/Graphics.hpp>
+#include <string>
+#include <map>
+#include <vector>
+#include <fstream>
+#include <algorithm>
+
+#include "map.hpp"
+#include "tile.hpp"
+
+#include "maze.h"
+
+/* Load map from disk */
+void Map::load(const std::string& filename, unsigned int width, unsigned int height,
+    std::map<std::string, Tile>& tileAtlas)
+{
+    std::ifstream inputFile;
+    inputFile.open(filename, std::ios::in | std::ios::binary);
+
+    this->width = width;
+    this->height = height;
+
+    for(int pos = 0; pos < this->width * this->height; ++pos)
+    {
+        this->resources.push_back(255);
+
+        TileType tileType;
+        inputFile.read((char*)&tileType, sizeof(int));
+        switch(tileType)
+        {
+            default:
+            case TileType::VOID:
+
+            case TileType::WALL:
+                this->tiles.push_back(tileAtlas.at("wall"));
+                break;
+
+            case TileType::PLAYER:
+                this->tiles.push_back(tileAtlas.at("player"));
+                break;
+
+            case TileType::MCLEOD:
+                this->tiles.push_back(tileAtlas.at("mcleod"));
+                break;
+        }
+        Tile& tile = this->tiles.back();
+    }
+
+    inputFile.close();
+
+    return;
+
+}
+
+Maze createMaze(int size, int start, int end){
+        return Maze(size, start, end);
+}
+
+void createPlayerMaze(int size, int start, int end){
+
+    Maze player = createMaze(size, start, end);
+
+}
+
+void Map::draw(sf::RenderWindow& window, float dt)
+{
+
+    Maze maze(5, 1, 1);
+
+    for(int y = 0; y < this->width/2; ++y) // Width -> 32
+    {
+        for(int x = 0; x < this->height/2; ++x) // Height -> 32
+        {
+
+
+            /* Set the position of the tile in the 2d world */
+            sf::Vector2f pos;
+
+            pos.x = x*width/4 + 1095;
+            pos.y = y*height/4 + 350;
+
+            this->tiles[y*this->width+x].sprite.setPosition(pos);
+
+			/* Draw the tile */
+			this->tiles[y*this->width+x].draw(window, dt);
+        }
+    }
+
+     for(int y = 0; y < this->width/2; ++y) // Width -> 32
+    {
+        for(int x = 0; x < this->height/2; ++x) // Height -> 32
+        {
+            /* Set the position of the tile in the 2d world */
+            sf::Vector2f pos;
+
+            pos.x = x*width/4 + 450;
+            pos.y = y*height/4 + 350;
+
+            this->tiles[y*this->width+x].sprite.setPosition(pos);
+
+			/* Draw the tile */
+			this->tiles[y*this->width+x].draw(window, dt);
+        }
+    }
+    return;
+}
+
